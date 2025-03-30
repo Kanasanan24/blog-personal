@@ -95,6 +95,9 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    .blog-list-content {
+        width: 95%;
+    }
     .blog-list-card {
         grid-template-columns: repeat(1, min-content);
         grid-template-rows: repeat(6, min-content);
