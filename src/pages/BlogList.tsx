@@ -28,6 +28,7 @@ export default function BlogList({ theme }:IFTheme) {
 
     // effect
     useEffect(() => {
+        if (category) document.title = parseCategory(category);
         prepareBlog();
     }, [page]);
 
