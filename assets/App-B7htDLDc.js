@@ -1,0 +1,1 @@
+import{u as e,r as s,j as i}from"./index-EuijECHP.js";function o({theme:t}){const a=e();return s.useEffect(()=>{document.title="Home - Personal Website",a("/blogs")},[]),i.jsx("div",{className:"App "+(t==="Light"?"active-light":t==="Dark"?"active-dark":"")})}export{o as default};

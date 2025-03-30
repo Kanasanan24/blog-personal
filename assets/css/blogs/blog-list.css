@@ -1,0 +1,103 @@
+.blog-list-container {
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    background-color: #fdfdfd;
+}
+
+.blog-list-container.active-dark {
+    background-color: #212121;
+}
+
+.blog-list-container.active-dark * {
+    color: #FFFFFF;
+}
+
+.blog-list-content {
+    padding: 0 20px;
+    padding-top: 30px;
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.blog-list-content .breadcrumb {
+    user-select: none;
+    font-size: 0.9rem !important;
+}
+
+.blog-list-card {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, min-content);
+    grid-template-rows: repeat(2, min-content);
+    place-content: center;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+}
+
+.pagination-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.pagination-container input {
+    min-width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+
+.pagination-container p {
+    margin: 0;
+}
+
+.pagination-container i:hover {
+    cursor: pointer;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.pagination-container input::-webkit-outer-spin-button,
+.pagination-container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.pagination-container input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.blog-list-container.active-dark .blog-card {
+    background-color: transparent;
+}
+
+.blog-list-container.active-dark .blog-list-content li::before {
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1440px) {
+    .blog-list-card {
+        grid-template-columns: repeat(2, min-content);
+        grid-template-rows: repeat(3, min-content);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .blog-list-card {
+        grid-template-columns: repeat(1, min-content);
+        grid-template-rows: repeat(6, min-content);
+        grid-row-gap: 25px;
+    }
+}
