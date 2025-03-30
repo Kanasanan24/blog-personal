@@ -87,6 +87,20 @@ export const blog_details = [
                         </p>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; <b>จากการศึกษาในสัปดาห์นี้</b> ทำให้ผมได้รับรู้ว่าการที่เราจะออกแบบ Interaction อะไรสักอย่างนึงควรที่จะคำนึงถึงผู้ใช้งานเป็นอันดับแรกเพื่อให้เราสามารถทำ Prototype ได้เจาะจงและตอบโจทย์ต่อกลุ่มเป้าหมายของเรามากขึ้นและเลือกรูปแบบการทำงานภายในทีมเพื่อที่จะทำให้สิ่งที่กำลังออกแบบนั้นบรรลุเป้าหมาย
+                        </p>
+                        <strong>Doraemon Activity : ผ้าคุมล่องหน</strong>
+                        <p>Activity นี้ได้ทำการศึกษา Persona และ Scenario ซึ่งทั้งสองสิ่งนี้จะต้องมีความเชื่อมโยงกับอุปกรณ์ Doraemon ที่เราได้เลือก</p>
+                        <div className="activity-image">
+                            <img src="/assets/images/blog_image/blog-user-center-design/persona-week3.png" alt="Persona" />
+                        </div>
+                        <p className="credit-image">
+                            รูปภาพแสดง Persona ของ Sidney Reilly
+                        </p>
+                        <div className="activity-image">
+                            <img src="/assets/images/blog_image/blog-user-center-design/scennario-week3.png" alt="Scenario" />
+                        </div>
+                        <p className="credit-image">
+                            รูปภาพแสดงสถานการณ์จำลองของผ้าคุมล่องหน
                         </p>`
     },
     {
@@ -256,6 +270,16 @@ export const blog_details = [
                         </ul>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; <b>จากการสรุป</b> จะพบว่า Golden Rule คือสิ่งที่จำเป็นต้องปฏิบัติตามเพื่อให้ผลลัพธ์การออกแบบดีขึ้นส่วน Heuristic คือคำแนะนำที่ถ้าทำตามก็จะดีมากขึ้นเพียงเท่านี้ก็จะทำให้เราได้ออกแบบผลิตภัณฑ์ได้ดีมากขึ้นและในการออกแบบเราจะใช้ Interface อะไรในการทำงานสำหรับผมแล้ว Interface ที่ขึ้นอยู่กับลักษณะงานมีความสำคัญมากที่สุดโดยเฉพาะปัจจัยคือ ผู้ใช้งาน สามารถนำไปประยุกต์ในการทำ Prototype คือออกแบบ Interface ให้เหมาะสมกับกลุ่มเป้าหมายได้ชัดเจนขึ้น
+                        </p>
+                        <strong>Project Activity : Interface Design</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; จากความรู้ที่ได้รับในสัปดาห์นี้ทำให้ภายในทีมได้ออกแบบ Interface ที่เหมาะสมสำหรับบุคคลที่มีความบกพร่องทางสายตาได้ซึ่งได้นำหลักการของ Cognitive Foundation ใน Week 2 เข้ามาช่วยในการตัดสินใจ
+                        </p>
+                        <div className="sub-image-detail">
+                            <img src="/assets/images/blog_image/blog-interaction-design/interface.jpg" alt="Interface" />
+                        </div>
+                        <p className="credit-image">
+                            รูปภาพแสดงแบบจำลองของ Interface
                         </p>`
     },
     {
@@ -304,6 +328,22 @@ export const blog_details = [
                         </ul>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; <b>สรุปจากข้างต้น</b> ก่อนที่เราจะเริ่มทำ Prototype การที่เราทบทวนหรือทำแนวคิดให้ชัดเจนก่อนจะทำให้ Prototype ของเราดีมากขึ้นและการเลือก Prototype ในการออกแบบก็เป็นสิ่งที่สำคัญซึ่งควรที่จะเลือกแบบที่ผู้ใช้งานสามารถโต้ตอบได้ถึงจะดีซึ่งภายในทีมของผมจึงตัดสินใจเลือกทำ Interactive Prototype เพื่อนำมาจำลองสถานการณ์โดยใช้ VR เข้ามาเกี่ยวข้องซึ่งจะทำให้ผู้ใช้งานสามารถโต้ตอบ, วิจารณ์และให้ข้อเสนอแนะกับการออกแบบได้มากขึ้น
+                        </p>
+                        <strong>Project Presentation</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; การนำเสนอ Project ในสัปดาห์นี้เกี่ยวข้องกับการระดมความคิดว่ากำลังจะทำอะไรมี Interface เป็๋นแบบไหน Feature เป็นอย่างไรซึ่งช่วงแรกนั้นได้รับข้อเสนอแนะและแก้ไขเพื่อให้มี Project ที่ดีกว่าเดิม
+                        </p>
+                        <div className="sub-image-detail">
+                            <img src="/assets/images/blog_image/blog-prototyping/persona-project.jpg" alt="Persona" />
+                        </div>
+                        <p className="credit-image">
+                            รูปภาพแสดง Persona
+                        </p>
+                        <div className="sub-image-detail">
+                            <img src="/assets/images/blog_image/blog-prototyping/feature.jpg" alt="Feature" />
+                        </div>
+                        <p className="credit-image">
+                            รูปภาพแสดง Feature ของ Project
                         </p>`
     }
 ];
