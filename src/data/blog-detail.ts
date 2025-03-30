@@ -1,16 +1,16 @@
 export const blog_details = [
     {
         slug: "introduction-hci",
-        code: `<div classname="main-content-image"><img src="/src/assets/images/blog_image/blog-hci.jpg" alt="HCI Introduction [Week 1]"></div><p>&nbsp;&nbsp;&nbsp;&nbsp; เมื่อได้เริ่มเรียน Human-Computer Interaction โดยต่อจากนี้ผมจะขอย่อให้เหลือเพียง HCI ซึ่งเราจะพบว่านิยามของ HCI นั้นมีหลากหลายแต่ผมสรุปได้ว่า HCI เป็นการออกแบบ, ประเมินค่าและนำเทคโนโลยีไปใช้พร้อมศึกษาเหตุการณ์ที่มีความเกี่ยวข้องกับเทคโนโลยีที่พัฒนา</p><strong>ขอบเขตและเป้าหมายของการเรียน HCI</strong><p>&nbsp;&nbsp;&nbsp;&nbsp; จากนิยามของ HCI เราจึงพอจะทราบได้ว่าการเรียนรู้ของเรานั้นจะเน้นไปที่ 2 สิ่งคือ Human และ Computer นั่นเองในฝั่งของ Human เราจะศึกษาในเรื่องของจิตวิทยาและร่างกายของมนุษย์เพื่อออกแบบเทคโนโลยีให้เหมาะสม ส่วน Computer เราก็ควรจะมีความรู้ในเรื่องของ Software และ Hardware เพื่อที่จะได้นำไปปรับใช้กับมนุษย์และสุดท้ายจะต้องมีขั้นตอนในการ ออกแบบ พัฒนา การนำไปใช้และประเมินค่าของเทคโนโลยีโดยในการพัฒนาสิ่งที่เราควรจะคำนึงถึงหรือเป้าหมายจะมี ดังนี้</p><ul><li><b>Safety</b>&nbsp;มีมาตรการในการรักษาความปลอดภัยต่อผู้ใช้งานอย่างไร ?</li><li><b>Utility</b>&nbsp;การทำงานหรือฟังก์ชันเป็นประโยชน์ต่อผู้ใช้งานไหม ?</li><li><b>Efficiency</b>&nbsp;สะดวกและรวดเร็วในการใช้งานมากน้อยเพียงใด ?</li><li><b>Usability</b>&nbsp;ง่ายต่อการใช้งานไหม ?</li><li><b>Appeal</b>&nbsp;ผู้ใช้งานชอบในเทคโนโลยีมากน้อยเพียงใด ?</li></ul><p>ถ้าเราสามารถวัดปัจจัยต่างๆ ตามข้างต้นได้เทคโนโลยีที่เราจะพัฒนาก็จะมีความหมายที่จะทำขึ้นมาได้มากขึ้นเพราะฉะนั้นการศึกษา HCI จึงเป็นสิ่งที่สำคัญ</p><div classname="sub-image-detail"><img src="/src/assets/images/blog_image/blog-hci/user-experinence.jpg" alt="user-experience"></div><p classname="credit-image">Credit by : tom wr<br><a href="https://hcidiary.wordpress.com/2011/10/27/week-3-usability-and-user-experience-goals/" target="_blank">Usability and User Experience Goals</a></p><p>จะภาพตัวอย่างเราจะพบว่าเป้าหมายของ HCI นั้นมีความคล้ายคลึงกับ User Experience ดังนั้นทั้งสองสิ่งสามารถนำมาปรับและประยุกต์ใช้ให้เข้ากับเทคโนโลยีได้</p><strong>สิ่งที่ควรจะคำนึงถึงเมื่อพัฒนาหรือผลิตเทคโนโลยีคืออะไร ?</strong><p>&nbsp;&nbsp;&nbsp;&nbsp; สิ่งที่ควรจะคำนึงถึงคือการทำให้เป็นมิตรต่อผู้ใช้งาน ประหยัดค่าใช้จ่ายและเวลาในการศึกษาเรียนรู้การใช้งานเทคโนโลยีนั้นๆ</p><p><b>จากข้อสรุปดังกล่าว</b>&nbsp;ทำให้เราพบว่าการทำ Prototype ในวิชา HCI จะต้องเริ่มต้นจากศึกษาผู้ใช้งานและปัญหาให้รอบคอบแล้วเราจะรู้ว่าเครื่องมือ Software หรือ Hardware อะไรที่จะตอบโจทย์ในการแก้ปัญหาโดยที่นำมาพัฒนาต่อยอดให้ผู้ใช้งานมีประสบการณ์การการใช้งานที่ดีมากขึ้น</p>`
+        code: `<div classname="main-content-image"><img src="/assets/images/blog_image/blog-hci.jpg" alt="HCI Introduction [Week 1]"></div><p>&nbsp;&nbsp;&nbsp;&nbsp; เมื่อได้เริ่มเรียน Human-Computer Interaction โดยต่อจากนี้ผมจะขอย่อให้เหลือเพียง HCI ซึ่งเราจะพบว่านิยามของ HCI นั้นมีหลากหลายแต่ผมสรุปได้ว่า HCI เป็นการออกแบบ, ประเมินค่าและนำเทคโนโลยีไปใช้พร้อมศึกษาเหตุการณ์ที่มีความเกี่ยวข้องกับเทคโนโลยีที่พัฒนา</p><strong>ขอบเขตและเป้าหมายของการเรียน HCI</strong><p>&nbsp;&nbsp;&nbsp;&nbsp; จากนิยามของ HCI เราจึงพอจะทราบได้ว่าการเรียนรู้ของเรานั้นจะเน้นไปที่ 2 สิ่งคือ Human และ Computer นั่นเองในฝั่งของ Human เราจะศึกษาในเรื่องของจิตวิทยาและร่างกายของมนุษย์เพื่อออกแบบเทคโนโลยีให้เหมาะสม ส่วน Computer เราก็ควรจะมีความรู้ในเรื่องของ Software และ Hardware เพื่อที่จะได้นำไปปรับใช้กับมนุษย์และสุดท้ายจะต้องมีขั้นตอนในการ ออกแบบ พัฒนา การนำไปใช้และประเมินค่าของเทคโนโลยีโดยในการพัฒนาสิ่งที่เราควรจะคำนึงถึงหรือเป้าหมายจะมี ดังนี้</p><ul><li><b>Safety</b>&nbsp;มีมาตรการในการรักษาความปลอดภัยต่อผู้ใช้งานอย่างไร ?</li><li><b>Utility</b>&nbsp;การทำงานหรือฟังก์ชันเป็นประโยชน์ต่อผู้ใช้งานไหม ?</li><li><b>Efficiency</b>&nbsp;สะดวกและรวดเร็วในการใช้งานมากน้อยเพียงใด ?</li><li><b>Usability</b>&nbsp;ง่ายต่อการใช้งานไหม ?</li><li><b>Appeal</b>&nbsp;ผู้ใช้งานชอบในเทคโนโลยีมากน้อยเพียงใด ?</li></ul><p>ถ้าเราสามารถวัดปัจจัยต่างๆ ตามข้างต้นได้เทคโนโลยีที่เราจะพัฒนาก็จะมีความหมายที่จะทำขึ้นมาได้มากขึ้นเพราะฉะนั้นการศึกษา HCI จึงเป็นสิ่งที่สำคัญ</p><div classname="sub-image-detail"><img src="/assets/images/blog_image/blog-hci/user-experinence.jpg" alt="user-experience"></div><p classname="credit-image">Credit by : tom wr<br><a href="https://hcidiary.wordpress.com/2011/10/27/week-3-usability-and-user-experience-goals/" target="_blank">Usability and User Experience Goals</a></p><p>จะภาพตัวอย่างเราจะพบว่าเป้าหมายของ HCI นั้นมีความคล้ายคลึงกับ User Experience ดังนั้นทั้งสองสิ่งสามารถนำมาปรับและประยุกต์ใช้ให้เข้ากับเทคโนโลยีได้</p><strong>สิ่งที่ควรจะคำนึงถึงเมื่อพัฒนาหรือผลิตเทคโนโลยีคืออะไร ?</strong><p>&nbsp;&nbsp;&nbsp;&nbsp; สิ่งที่ควรจะคำนึงถึงคือการทำให้เป็นมิตรต่อผู้ใช้งาน ประหยัดค่าใช้จ่ายและเวลาในการศึกษาเรียนรู้การใช้งานเทคโนโลยีนั้นๆ</p><p><b>จากข้อสรุปดังกล่าว</b>&nbsp;ทำให้เราพบว่าการทำ Prototype ในวิชา HCI จะต้องเริ่มต้นจากศึกษาผู้ใช้งานและปัญหาให้รอบคอบแล้วเราจะรู้ว่าเครื่องมือ Software หรือ Hardware อะไรที่จะตอบโจทย์ในการแก้ปัญหาโดยที่นำมาพัฒนาต่อยอดให้ผู้ใช้งานมีประสบการณ์การการใช้งานที่ดีมากขึ้น</p>`
     },
     {
         slug: "initial-project-typescript",
-        code: `<div className="main-content-image"> <img src="/src/assets/images/blog_image/blog-typescript.png" alt="การเริ่มต้นโปรเจค Typescript" /> </div> <p> &nbsp;&nbsp;&nbsp;&nbsp; <b>เหตุผล</b>&nbsp;ที่เราควรใช้ Typescript นั้นมีอนู่ด้วยกัน 3 เหตุผลหลักๆ คือ </p> <ul> <li><b>เป็น Superset</b>&nbsp;ของภาษา Javascript</li> <li><b>มีการ Compile</b>&nbsp;คำสั่งก่อนที่จะนำไปใช้งาน</li> <li><b>Static Type</b>&nbsp;แก้ไขตัวแปรที่สามารถเปลี่ยนชนิดข้อมูล</li> </ul> <p> &nbsp;&nbsp;&nbsp;&nbsp; ด้วย 3 เหตุผลนี้ก็เพียงพอที่จะใช้ Typescript นั่นเองเพื่อป้องกันข้อผิดพลาดต่างๆ จาก Javascript ได้มากขึ้นและยังสามารถกำหนดประเภทข้อมูลที่เฉพาะเจาะจงและถ้าเราต้องการจะใช้ Typescript แล้วจะต้องทำการติดตั้ง Typescript ลงในเครื่องสะก่อนโดยการใช้คำสั่ง (ใช้ Command Prompt แนะนำว่าให้ติดตั้งไว้ที่ตำแหน่ง C:\\>) </p> <pre><code>C:\\>npm install -g typescript</code></pre> <p> เมื่อติดตั้งเสร็จแล้วเราสามารถใช้คำสั่ง <code>tsc -v</code> หรือ <code>tsc --version</code> เพื่อเช็คว่า Typescript ถูกติดตั้งลงบนเครื่องแล้วหรือยังพร้อมกับเช็ค version ของภาษา Typescript ได้อีกด้วย </p> <p> &nbsp;&nbsp;&nbsp;&nbsp; ในทีนี้ก็เป็นจุด Climax ของบทความนี้นี่เองคือการสร้าง Project ด้วย Typescript โดยเริ่มต้นผู้อ่านสามารถสร้าง Folder ที่จะทำการสร้าง Project ไว้ได้เลยจากนั้นให้ใช้ Command Prompt คำสั่ง <code>cd [เส้นของของ Folder]</code> เพื่อให้ Command Prompt ได้ชี้ว่าจะทำการงานกับ Project ใน Folder นั้นนั่นเองแล้วสุดท้ายการสร้าง Project Typescript สามารถใช้คำสั่ง </p> <pre><code>tsc --init</code></pre> <p>เป็นคำสั่งที่จะเริ่มต้นหรือ Initial ว่าจะใช้งาน Typescript นั่นเองเพียงเท่านี้ก็สามารถสร้าง Project ด้วย Typescript ได้แล้ว</p>`
+        code: `<div className="main-content-image"> <img src="/assets/images/blog_image/blog-typescript.png" alt="การเริ่มต้นโปรเจค Typescript" /> </div> <p> &nbsp;&nbsp;&nbsp;&nbsp; <b>เหตุผล</b>&nbsp;ที่เราควรใช้ Typescript นั้นมีอนู่ด้วยกัน 3 เหตุผลหลักๆ คือ </p> <ul> <li><b>เป็น Superset</b>&nbsp;ของภาษา Javascript</li> <li><b>มีการ Compile</b>&nbsp;คำสั่งก่อนที่จะนำไปใช้งาน</li> <li><b>Static Type</b>&nbsp;แก้ไขตัวแปรที่สามารถเปลี่ยนชนิดข้อมูล</li> </ul> <p> &nbsp;&nbsp;&nbsp;&nbsp; ด้วย 3 เหตุผลนี้ก็เพียงพอที่จะใช้ Typescript นั่นเองเพื่อป้องกันข้อผิดพลาดต่างๆ จาก Javascript ได้มากขึ้นและยังสามารถกำหนดประเภทข้อมูลที่เฉพาะเจาะจงและถ้าเราต้องการจะใช้ Typescript แล้วจะต้องทำการติดตั้ง Typescript ลงในเครื่องสะก่อนโดยการใช้คำสั่ง (ใช้ Command Prompt แนะนำว่าให้ติดตั้งไว้ที่ตำแหน่ง C:\\>) </p> <pre><code>C:\\>npm install -g typescript</code></pre> <p> เมื่อติดตั้งเสร็จแล้วเราสามารถใช้คำสั่ง <code>tsc -v</code> หรือ <code>tsc --version</code> เพื่อเช็คว่า Typescript ถูกติดตั้งลงบนเครื่องแล้วหรือยังพร้อมกับเช็ค version ของภาษา Typescript ได้อีกด้วย </p> <p> &nbsp;&nbsp;&nbsp;&nbsp; ในทีนี้ก็เป็นจุด Climax ของบทความนี้นี่เองคือการสร้าง Project ด้วย Typescript โดยเริ่มต้นผู้อ่านสามารถสร้าง Folder ที่จะทำการสร้าง Project ไว้ได้เลยจากนั้นให้ใช้ Command Prompt คำสั่ง <code>cd [เส้นของของ Folder]</code> เพื่อให้ Command Prompt ได้ชี้ว่าจะทำการงานกับ Project ใน Folder นั้นนั่นเองแล้วสุดท้ายการสร้าง Project Typescript สามารถใช้คำสั่ง </p> <pre><code>tsc --init</code></pre> <p>เป็นคำสั่งที่จะเริ่มต้นหรือ Initial ว่าจะใช้งาน Typescript นั่นเองเพียงเท่านี้ก็สามารถสร้าง Project ด้วย Typescript ได้แล้ว</p>`
     },
     {
         slug: "cognitive-foundation",
         code: `<div className="main-content-image">
-                            <img src="/src/assets/images/blog_image/brain-unsplash.jpg" alt="Cognitive Foundation" />
+                            <img src="/assets/images/blog_image/brain-unsplash.jpg" alt="Cognitive Foundation" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; จุดมุ่งหมายสำหรับผมในสัปดาห์นี้คือการเรียนรู้เกี่ยวกับร่างกายและพฤติกรรมของมนุษย์แบบเชิงลึกถึงขั้นที่จะอธิบายการทำงานหรือการประมวลผลบางอย่างที่ไม่อาจคิดแบบปกติได้ (เหมือนได้นั่งเรียนชีวะหนักๆ ของช่วงม.ปลาย) เริ่มต้นจากจุดประสงค์หลักๆ มีอยู่ด้วยกัน 5 ปัจจัย
@@ -43,7 +43,7 @@ export const blog_details = [
                             <b>จากข้อสรุปดังกล่าว </b>ทำให้ผมมีความสนใจในเรื่องของ การมองเห็น ที่มีหลักการคือรับแสงที่สะท้อนจากวัตถุแล้วแปลงเป็นสัญญาณไฟฟ้าแล้วส่งไปที่สมองส่วน Visual Cortex แล้วคิดว่าจะนำหลักการในเรื่องของ Rods และ Cones Cell มาใช้ประกอบการทำ Prototype
                         </p>
                         <div className="sub-image-detail">
-                            <img src="/src/assets/images/blog_image/blog-cognitive/eye-structure.jpg" alt="Eye Structure" />
+                            <img src="/assets/images/blog_image/blog-cognitive/eye-structure.jpg" alt="Eye Structure" />
                         </div>
                         <p className="credit-image">
                             Credit by : BioNinja<br />
@@ -56,7 +56,7 @@ export const blog_details = [
     {
         slug: "user-center-design",
         code: `<div className="main-content-image">
-                            <img src="/src/assets/images/blog_image/user-center.jpg" alt="User Center Design" />
+                            <img src="/assets/images/blog_image/user-center.jpg" alt="User Center Design" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; เมื่อได้เรียนรู้เกี่ยวกับ Conceptual Model เราจะได้เข้าใจเพิ่มเติมมากขึ้นว่าจะทำอย่างไรให้ผลิตภัณฑ์ของเราที่ออกแบบมาผู้อื่นสามารถทำความเข้าใจและใช้งานได้ง่าย ซึ่งผมสามารถสรุปปัจจัยต่างๆ ได้ตามดังต่อไปนี้
@@ -92,7 +92,7 @@ export const blog_details = [
     {
         slug: "user-experiences",
         code: `<div className="main-content-image">
-                            <img src="/src/assets/images/blog_image/user-experience.jpg" alt="User Experience" />
+                            <img src="/assets/images/blog_image/user-experience.jpg" alt="User Experience" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; จากคำกล่าวของ "Don Norman" ที่ได้พูดถึง User Experience ว่าผลิตภัณฑ์เป็นได้มากกว่าผลิตภัณฑ์ ซึ่งมันจะสื่อถึงการคิดทบทวนทุกขั้นตอนของผลิตภัณฑ์ บริการไตร่ตรองการทำงานไปจนถึงขั้นสุดท้าย รวมถึงการออกแบบการแนะนำ การบำรุงรักษา การบริการอื่นๆ ทำให้ทุกขั้นตอนการทำงานเป็นไปได้อย่างราบรื่นถึงจะเรียกได้ว่า User Experience เมื่ออธิบายแบบนี้จะทำให้เข้าใจได้ยากจะสามารถแยกปัจจัยออกได้เป็นดังนี้
@@ -144,7 +144,7 @@ export const blog_details = [
                             </li>
                         </ul>
                         <div className="sub-image-detail">
-                            <img src="/src/assets/images/blog_image/blog-user-experience/user-experience-blind.png" alt="Blind User Interface" />
+                            <img src="/assets/images/blog_image/blog-user-experience/user-experience-blind.png" alt="Blind User Interface" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; <b>จึงสรุปได้ว่า</b> ปัจจัยในข้างต้นนั้นมีการอธิบายถึง User Experience, Requirement, Scenario และ Persona ซึ่งสิ่งเหล่านี้สามารถนำมาใช้ในการออกแบบผลิตภัณฑ์ของเราให้ตอบโจทย์ผู้ใช้งานและมอบประสบการณ์ที่ดีได้ดังนั้นในการทำ Prototype ผมจึงนำ Persona มาใช้ร่วมกับ Scenario เพื่อให้พบกับการออกแบบสถานการณ์ที่เหมาะสมในการทำ Demo 
@@ -153,7 +153,7 @@ export const blog_details = [
     {
         slug: "interaction-design-basic",
         code: `<div className="main-content-image">
-                            <img src="/src/assets/images/blog_image/interaction-design.jpg" alt="VR Headset" />
+                            <img src="/assets/images/blog_image/interaction-design.jpg" alt="VR Headset" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; ที่น่าสนใจในสัปดาห์นี้สำหรับผมแล้วขอเริ่มต้นจากการทำความรู้จักกับ <code>Golden rules and heuristics</code> ความแตกต่างระหว่าง "Golden Rules" และ "Heuristics" จะเป็นดังต่อไปนี้
@@ -171,7 +171,7 @@ export const blog_details = [
                         </p>
                         <strong>Nielsen's 10 Heuristics</strong>
                         <div className="sub-image-detail">
-                            <img src="/src/assets/images/blog_image/blog-interaction-design/nielsen.jpg" alt="Nielsen" />
+                            <img src="/assets/images/blog_image/blog-interaction-design/nielsen.jpg" alt="Nielsen" />
                         </div>
                         <p className="credit-image">
                             Credit by : <a href="https://www.nngroup.com/people/jakob-nielsen/" target="_blank">Jakob Nielsen</a>
@@ -210,7 +210,7 @@ export const blog_details = [
                         </ul>
                         <strong>Shneiderman's 8 Golden Rules</strong>
                         <div className="sub-image-detail">
-                            <img src="/src/assets/images/blog_image/blog-interaction-design/shneiderman.jpg" alt="Shneiderman" />
+                            <img src="/assets/images/blog_image/blog-interaction-design/shneiderman.jpg" alt="Shneiderman" />
                         </div>
                         <p className="credit-image">
                             Credit by : <a href="https://en.wikipedia.org/wiki/Ben_Shneiderman">Ben Shneiderman</a>
@@ -261,7 +261,7 @@ export const blog_details = [
     {
         slug: "prototyping",
         code: `<div className="main-content-image">
-                            <img src="/src/assets/images/blog_image/prototype.jpg" alt="Prototyping" />
+                            <img src="/assets/images/blog_image/prototype.jpg" alt="Prototyping" />
                         </div>
                         <p>
                             &nbsp;&nbsp;&nbsp;&nbsp; Prototype ในมุมของผมแล้วคิดว่าเป็นการแสดงผลลัพธ์อย่างนึงที่ออกแบบมาแล้วอนุญาตให้ผู้ที่มีส่วนได้ส่วนเสีย (stakeholder) สามารถโต้ตอบได้ ซึ่ง Prototype สามารถทำได้หลายรูปแบบ เช่น ภาพร่างหน้าจอ, วิดีโอจำลอง, software ที่มา demo หรืออื่นๆ
