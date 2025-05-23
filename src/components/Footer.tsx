@@ -6,9 +6,7 @@ export default function Footer({ theme }:IFTheme) {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 796);
 
     useEffect(() => {
-        const handleResize = () => {
-            setIsMobile(window.innerWidth < 796);
-        };
+        const handleResize = () => setIsMobile(window.innerWidth < 796);
         
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
