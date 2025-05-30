@@ -219,6 +219,45 @@
         height: 700px;
         object-fit: contain;
     }
+
+    details {
+        padding: 3px 10px;
+        display: inline-block;
+        border-radius: 5px;
+        background-color: #eeeeee;
+
+        p {
+            padding: 10px;
+            margin: 0;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: #f7f7f7;
+        }
+    }
+
+    details:open {
+        padding: 0;
+        padding-top: 5px;
+        summary {
+            margin: 0 5px;
+        }
+    }
+}
+
+.blog-detail-container.active-dark details {
+    summary, p {
+        color: #000000;
+    }
+}
+
+.blog-detail-container pre {
+    p {
+        margin: 0;
+        font-size: 0.75rem;
+    }
+    strong {
+        margin: 0;
+    }
 }
 
 .blog-detail-container.active-dark pre {
@@ -227,6 +266,10 @@
     code {
         color: #FFFFFF;
         background-color: transparent;
+    }
+
+    p {
+        font-size: 0.7rem;
     }
 }
 

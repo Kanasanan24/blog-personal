@@ -17,7 +17,9 @@ export const categorie_details:IFCategoryDetail[] = [
             "user-center-design",
             "user-experiences",
             "interaction-design-basic",
-            "prototyping"
+            "prototyping",
+            "extended-reality",
+            "evaluation-method"
         ]
     },
     {

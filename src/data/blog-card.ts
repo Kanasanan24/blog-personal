@@ -80,5 +80,25 @@ export const explore_blogs:IFExporeBlog[] = [
         description: "บ่อยครั้งที่เรามักจะสงสัยว่า Prototype ที่ได้กล่าวถึงคืออะไรซึ่งเมื่อเราออกแบบผลิตภัณฑ์แต่ต้องมี Demo บางอย่างก่อนที่จะขึ้นเป็น Production จริงๆ การศึกษา Prototyping จึงเป็นสิ่งที่ควรจะเรียนรู้",
         author_image: "/assets/images/kanasanan.jpg",
         author_name: "Kanasanan Hanthongchai"
+    },
+    {
+        slug: "extended-reality",
+        categories: ["Human Computer Interaction"],
+        blog_image: "/assets/images/blog_image/extended-reality.jpg",
+        created_at: "May 28, 2025",
+        title: "eXtended Reality + 3D UI [Week 7]",
+        description: "ในโลกของ Virtual Reality ที่เราได้รู้จักกันผ่านการเล่นเกมในอุปกรณ์ VR Headset นั้นจริงๆ แล้วมีเทคโนโลยีที่เกี่ยวข้องกันมากกว่าแค่ VR ซึ่งจะมีเทคโนโลยีอื่นๆ ที่เราจะได้เรียนรู้กันไม่ว่าจะเป็น Augmented Reality หรือ Mixed Reality",
+        author_image: "/assets/images/kanasanan.jpg",
+        author_name: "Kanasanan Hanthongchai"
+    },
+    {
+        slug: "evaluation-method",
+        categories: ["Human Computer Interaction"],
+        blog_image: "/assets/images/blog_image/evaluation.jpg",
+        created_at: "May 29, 2025",
+        title: "Evalution Method [Week 8]",
+        description: "ในการทำ User Study ใน Project เราจะต้องรู้จักการคิดวิธีการทดลองหรือทำโครงการให้กับผู้ที่เข้าร่วมซึ่งรวมถึงการคิดคำถามเพื่อใช้ในการประเมินโดยเราจะสามารถเรียนรู้ได้จากเรื่อง Evaluation Method",
+        author_image: "/assets/images/kanasanan.jpg",
+        author_name: "Kanasanan Hanthongchai"
     }
 ];

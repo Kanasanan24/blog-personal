@@ -4,7 +4,7 @@ export const HTMLsanitization = (htmlContent:string) => {
     const allowedTags = [
         "p", "strong", "em", "ul", "li", "a", "ol", "br",
         "h1", "h2", "h3", "h4", "h5", "h6", "b",
-        "blockquote", "code", "hr", "pre", "img", "div"
+        "blockquote", "code", "hr", "pre", "img", "div", "details", "summary"
     ];
 
     const allowedAttributes = [

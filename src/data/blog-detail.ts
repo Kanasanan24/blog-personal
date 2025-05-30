@@ -345,5 +345,400 @@ export const blog_details = [
                         <p className="credit-image">
                             รูปภาพแสดง Feature ของ Project
                         </p>`
+    },
+    {
+        slug: "extended-reality",
+        code: `<div className="main-content-image">
+                            <img src="/assets/images/blog_image/extended-reality.jpg" alt="Extended Reality" />
+                        </div>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เริ่มต้นเรามาทำความรู้จักกับ Extended Reality กันก่อนว่าคืออะไร Extended Reality (XR) เป็นคำที่ใช้เรียกรวมเทคโนโลยีที่ผสมผสานระหว่างโลกจริงและโลกเสมือนเข้าด้วยกันซึ่งรวมถึง Virtual Reality (VR), Augmented Reality (AR) และ Mixed Reality (MR) แล้ว VR, AR และ MR คืออะไร ?
+                        </p>
+                        <strong>Virtual Reality (VR)</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เป็นการจำลองโลกเสมือนแบบ 360 องศาและมักใช้ควบคู่กับอุปกรณ์ที่สามารถจำลองโลกเสมือนได้อย่าง VR Headset ซึ่ง VR มีคุณสมบัติหลักอยู่ด้วยกัน 3 อย่างดังนี้
+                        </p>
+                        <details>
+                            <summary>3D stereoscopic display</summary>
+                                <p>การสร้างภาพสามมิติโดยอาศัยเทคนิคการสร้างภาวะลวงตาซึ่งสามารถอ่านได้จาก Cognitive Foundation ในเรื่องของภาวะภาพลวงตา</p>
+                        </details>
+                        <br /><br />
+                        <details>
+                            <summary>Wide field of view display</summary>
+                            <p>การมองเห็นมุมมองกว้าง ซึ่งเป็นความสามารถของแว่นที่ทำให้มองเห็นได้ใกล้เคียงกับตาของมนุษย์</p>
+                        </details>
+                        <br /><br />
+                        <details>
+                            <summary>Low latency head tracking</summary>
+                            <p>head tracking คือการติดตามการเคลื่อนไหวของศีรษะเมื่อมีการหันมองทิศทางต่างๆ แบบ Low latency ซึ่งมีระยะความหน่วงให้น้อยที่สุด</p>
+                        </details>
+                        <br /><br />
+                        <strong>Augmented Reality (AR)</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เป็นการนำเทคโนโลยีระหว่างโลกจริงและโลกเสมือนเข้าด้วยกัน โดยใช้ software หรือ interface device ต่างๆ ซึ่งจะมีคุณสมบัติอยู่ 3 อย่างดังนี้
+                        </p>
+                        <details>
+                            <summary>Combines Read and Virtual Images</summary>
+                            <p>ผสมผสานระหว่างความเป็นจริงกับภาพเสมือนซึ่งควรเห็นในเวลาเดียวกันทั้งคู่</p>
+                        </details>
+                        <br /><br />
+                        <details>
+                            <summary>Interactive in real-time</summary>
+                            <p>เนื้อหาที่จำลองควรที่จะโต้ตอบกับผู้ใช้งานได้</p>
+                        </details>
+                        <br /><br />
+                        <details>
+                            <summary>Registered in 3D</summary>
+                            <p>คือจัดตำแหน่ง object 3D ให้ตรงกับตำแหน่งในโลกจริง</p>
+                        </details>
+                        <br /><br />
+                        <strong>Mixed Reality (MR)</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; การผสมผสานระหว่างเทคโนโลยี VR และ AR เข้าด้วยกันซึ่งจะมีทั้งโลกเสมือนและโลกจริงผสมกัน
+                        </p>
+                        <strong>แล้ว AR กับ MR ต่างกันอย่างไร ?</strong>
+                        <p>
+                            AR เป็นการเน้นโลกจริงที่มี object ของโลกเสมือนเสริม <br />  
+                            MR จะอยู่ช่วงระหว่างกลางของ VR และ AR
+                        </p>
+                        <strong>* Spatial</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; สิ่งที่เกี่ยวข้องกับตำแหน่ง, ระยะทาง, ทิศทาง, ขนาด หรือความสัมพันธ์ของ object ในพื้นที่ 3D เช่น
+                            Spatial Mapping เป็นการสแกนพื้นที่จริงเพื่อสร้าง map 3D ให้ object เหมือนอยู่กับโลกจริง
+                            Spatial Audio เป็นเสียงที่ออกมาจากตำแหน่งเฉพาะ อย่างข้างหลัง ซ้าย ขวาหรือที่ห่างไกล
+                            Spatial Anchors เป็นจุดยึดสำหรับ object เสมือนไม่ให้ลอยหรือเคลื่อนตามกล้อง
+                            Spatial Awareness เป็นความสามารถของมนุษ์ในการรับรู้ตำแหน่งและสภาพแวดล้อมรอบตัว
+                        </p>
+                        <strong>สิ่งที่ควรจะรู้ก่อนที่จะเริ่มต้นในการพัฒนาเทคโนโลยีทาง XR</strong>
+                        <ul>
+                            <li>
+                                <b>Affordances</b>
+                                <p>เป็นความสามารถในการรับรู้ความเป็นจริงของสิ่งของว่ามีคุณสมบัติในการใช้งานสิ่งนั้นอย่างไร</p>
+                                <p>ความแตกต่างระหว่าง Physical และ Virtual Affordances</p>
+                                <details>
+                                    <summary>Physical Affordances</summary>
+                                    <p>
+                                        - ดูและรู้สึกได้ถึงความสมจริงของวัตถุ <br />
+                                        - มีรูปร่าง, พื้นผิว, สีและน้ำหนัก อื่นๆ <br />
+                                        - ออกแบบจากระบบโรงงานหรืออุตสาหกรรม
+                                    </p>
+                                </details>
+                                <br /><br />
+                                <details>
+                                    <summary>Virtual Affordances</summary>
+                                    <p>
+                                        - รับรู้ได้ว่าเป็น object เสมือน <br />
+                                        - Copy มาจาก object จริง <br />
+                                        - ออกแบบจาก interface ต่างๆ
+                                    </p>
+                                </details>
+                            </li>
+                        </ul>
+                        <strong>Affordances ใน VR</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เป็นการออกแบบ interface object มีไว้เพื่อแสดงวิธีการใช้งานซึ่งมีเรื่องที่จะต้องคำนึงถึงคือ
+                        </p>
+                        <ul>
+                            <li>ใช้สัญลักษณ์เพื่อแสดงความเป็นไปได้ในการรับรู้</li>
+                            <li>ควรที่จะทำให้การรับรู้ Affordances ตรงกับความเป็นจริง</li>
+                            <li>ทำให้พฤติกรรมของ object เป็นไปตามที่คาดหวังไว้มี Good Cognitive</li>
+                        </ul>
+                        <strong>XR Travel techniques</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; ส่วนใหญ่แล้วการ Travel ใน XR วิธีการที่นิยมมีอยู่ด้วยกัน 7 รูปแบบดังนี้
+                        </p>
+                        <ul>
+                            <li>
+                                <b>Teleportation</b>
+                                <ul>
+                                    <li>ผู้ใช้ชี้ไปยังจุดที่ต้องการจะไป แล้ว “วาร์ป” ไปทันที</li>
+                                    <li>ลดอาการเวียนหัวได้ดี</li>
+                                    <li>นิยมใช้ใน VR มาก</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Dash or Blink Move</b>
+                                <ul>
+                                    <li>คล้ายกับ Teleport แต่จะมี “เอฟเฟกต์ย้ายตำแหน่งแบบเร็ว” (เช่น หน้าจอเบลอขณะย้าย)</li>
+                                    <li>ทำให้การเปลี่ยนตำแหน่งรู้สึกสมจริงมากขึ้นกว่าการวาร์ปทันที</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Smooth Locomotion</b>
+                                <ul>
+                                    <li>ผู้ใช้เดินหรือเคลื่อนที่ด้วยคอนโทรลเลอร์ เหมือนเดินในเกม FPS</li>
+                                    <li>ต้องมีการจัดการกล้องและมุมมองให้ดี เพราะอาจทำให้เวียนหัว</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Arm Swinging / Natural Movement</b>
+                                <ul>
+                                    <li>เคลื่อนที่โดยใช้การ “แกว่งแขน” หรือการเคลื่อนไหวของร่างกาย เช่น ใช้ motion controller ตรวจจับการเดินจำลอง</li>
+                                    <li>ช่วยให้รู้สึกเหมือนเดินจริงมากขึ้น</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Walking-in-Place (WIP)</b>
+                                <ul>
+                                    <li>ผู้ใช้อยู่กับที่แต่ทำท่าเดิน ระบบจะแปลความเคลื่อนไหวว่าเป็นการเดินในโลกเสมือน</li>
+                                    <li>ใช้เซ็นเซอร์ตรวจจับการเคลื่อนไหวของขา</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Redirected Walking</b>
+                                <ul>
+                                    <li>ใช้เทคนิคหลอกสายตา เช่น การหมุนแผนที่เล็กน้อย เพื่อให้ผู้ใช้เดินเป็นวงกลมในโลกจริง แต่รู้สึกว่าเดินเป็นเส้นตรงในโลกเสมือน</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <b>Vehicle-based Movement</b>
+                                <ul>
+                                    <li>ผู้ใช้เดินทางด้วยพาหนะในโลกเสมือน เช่น รถยนต์ เรือ ลิฟต์</li>
+                                    <li>ทำให้การเคลื่อนที่รู้สึกนุ่มนวล และลด motion sickness</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <strong>XR sound design</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; ข้อแตกต่างระหว่าง Spatialization และ Localization
+                        </p>
+                        <ul>
+                            <li>
+                                <b>Spatialization</b>
+                                <p>เป็นการทำให้เสียงออกมาจากตำแหน่งเฉพาะในพื้นที่ 3D</p>
+                            </li>
+                            <li>
+                                <b>Localization</b>
+                                <p>เป็นความสามารถในการรับรู้ตำแหน่งของต้นทางเสียงของมนุษย์
+                                </p>
+                            </li>
+                        </ul>
+                        <p>
+                            สิ่งที่จะต้องคำนึงถึง
+                            1. ความแตกต่างของเวลาเสียงระหว่างหูทั้งสองข้าง
+                            2. ผลกระทบจากสภาพแวดล้อม
+                        </p>
+                        <strong>
+                            XR Usability Heuristics สามารถนำหลักการของ Nielson Norman มาประกอบได้ &nbsp;
+                            <a href="https://kanasanan24.netlify.app/blogs/interaction-design-basic">Interaction Design Basic</a>
+                        </strong>
+                        <p>
+                            <b>จากข้อสรุปดังกล่าว</b> ทำให้กลุ่มผมสามารถตัดสินใจตัวเลือกเทคโนโลยีที่จะนำมาใช้ในการออกแบบ Prototype ของแบบจำลอง Iris Vision สำหรับผู้ที่มีความบกพร่องทางสายตาได้โดยจะใช้วิธีการพัฒนา VR ผ่าน Unreal Engine 
+                        </p>
+                        <strong>Spatial - Extended Reality (XR) Interaction Design – Workshop</strong>
+                        <br />
+                        <br />
+                        <pre>
+            <strong>Case Study #Beat Saber</strong>
+                            <p>
+                                1.What is the app main object interaction method? <br />
+                                - ผู้เล่นใช้ มือทั้งสองข้างถือคอนโทรลเลอร์ VR ที่จำลองเป็นดาบเลเซอร์ <br />
+                                - ฟันบล็อกตามจังหวะของเพลง โดยมีสีและทิศทางที่ต้องฟันให้ถูกต้อง <br />
+                                - ต้องหลบสิ่งกีดขวาง เช่น กำแพงและระเบิด ทำให้เกิดความท้าทาย
+                            </p>
+                            <p>
+                                2.How is the app menu system? <br />
+                                - เมนูหลักเป็น 3D Floating Panel ที่อยู่ด้านหน้าผู้เล่น <br />
+                                - ใช้คอนโทรลเลอร์ชี้และคลิกเพื่อเลือกเมนู <br />
+                                - มี UI ที่เรียบง่าย
+                            </p>
+                            <p>
+                                3.What is the traveling technique use in the app? <br />
+                                - ผู้เล่นจะยืนอยู่กับที่ และใช้การเคลื่อนไหวของร่างกาย (Physical Movement) เช่น ฟัน ฟาด และหลบ <br />
+                                - เกมไม่ต้องการพื้นที่กว้างขวางในการเคลื่อนที่ เพราะไม่ต้องใช้ travel techniques 
+                            </p>
+                            <p>
+                                4.What about sound, is it 3D spatial sound? <br />
+                                - Beat Saber ใช้ 3D Spatial Sound เพื่อเพิ่มความสมจริงและอารมณ์ของเพลง <br />
+                                - เสียงของบล็อกที่ถูกฟันและเอฟเฟกต์เสียงต่าง ๆ จะเปลี่ยนไปตามมุมมองของผู้เล่น <br />
+                                - มีการออกแบบเสียงให้ตรงกับจังหวะและทิศทางของเพลง
+                                เพลงมีมิติเสียงรอบทิศทาง
+                            </p>
+                            <p>
+                                5.Discuss what is good or bad about the game you tried? <br />
+                                - ข้อดีของเกม: <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;1. ใช้งานง่าย ไม่ต้องใช้ปุ่มเยอะ brแค่ฟันบล็อกให้ตรงจังหวะ <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;2. ออกกำลังกายไปพร้อมกับเล่นเกม <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;3. มีเพลงเยอะ และรองรับเพลง Mod จากผู้ใช้ <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;4. ระบบเสียงและภาพทำให้ผู้ใช้รู้สึดสมจริง <br />
+                                - ข้อเสียของเกม: <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;1. ไม่มี multiplayer co-op ในตัว ต้องพึ่ง mod เสริม <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;2. บางเพลงมีเลเวลความยากสูง ทำให้มือใหม่เล่นยาก <br />
+                                    &nbsp;&nbsp;&nbsp;&nbsp;3. UI เมนูอาจดูเรียบเกินไปและไม่มี gesture support
+                            </p>
+                            <p>
+                                6.How to make it better? <br />
+                                - ผู้เล่นสามารถพูดคำสั่งเช่น "Start Game" หรือ "Pause" แทนการกดปุ่ม <br />
+                                - เพิ่มระบบ Adaptive Difficulty ที่สามารถปรับระดับความยากได้อัตโนมัติตามสกิลของผู้เล่น <br />
+                                - เพิ่มการสั่นตามแรงฟัน หรือมีแรงต้านจากดาบ จะเพิ่มความสมจริงมากขึ้น <br />
+                                - เพิ่มโหมด co-op ให้เล่นด้วยกันแบบ real-time <br />
+                                - เพิ่ม gesture-based navigation  เพื่อแนะนำผู้เล่น
+                            </p>
+            <strong>Case Study #Robo Recall</strong>
+                            <br />
+                            <p>
+                                1.What is the app main object interaction method? <br />
+                                - ผู้เล่นสามารถ Control ตัวละครโดยใช้ทั้งสองมือได้ <br />
+                                - กำจัดหุ่นจักรกลที่ถูกแสดงก่อนที่ตัวละครของตนเองจะถูกโจมตี
+                            </p>
+                            <p>
+                                2.How is the app menu system?
+                                - มี UIที่จะใช้ Control ที่มี Laser ไปชี้ Option ที่จะกระทำได้ <br />
+                                - หน้าต่าง UI
+                            </p>
+                            <p>
+                                3.What is the traveling technique use in the app? <br />
+                                - การเดินทางที่ใช้ใน Game จะเป็นการ Teleport ตัวละครไปยังตำแหน่งต่างๆ
+                            </p>
+                            <p>
+                                4.What about sound, is it 3D spatial sound? <br />
+                                - ทุกการกระทำที่สำคัญจะมีเสียง Effect อย่าง Item การยิงหรือเสียง <br />
+                                - เมื่อมีกระสุนของหุ่นจักรกลกำลังจะโจมตีรับรู้ได้ว่าเสียงกำลังอยู่ใกล้หรือไกล
+                            </p>
+                            <p>
+                                5.Discuss what is good or bad about the game you tried? <br />
+                                - ข้อดี <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;1. สามารถควบคุมอาวุธในเกมได้ง่าย <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;2. User Interface มีความเรียบง่ายไม่ซับซ้อนในการทำความเข้าใจ <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;3. ไม่ต้องใช้ Movement มากขนาดนั้นเพียงแค่รอ Enemy เข้าหาตัว <br />
+                                - ข้อเสีย <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;1. ไม่สามารถหลบการโจมตีของศัตรูได้ <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;2. เมื่ออยู่ในด่านในการถืออาวุธไม่มี Laser คอยชี้วัตถุทำให้ความแม่นยำน้อยลง <br />
+                                &nbsp;&nbsp;&nbsp;&nbsp;3. ไม่มีปุ่มในการหยุดการเล่นชั่วคราว
+                            </p>
+                            <p>
+                                6.How to make it better? <br />
+                                - เพิ่ม Movement ในการหลบ Enemy มากกว่าการใช้ Teleport <br />
+                                - เพิ่ม Laser บนอาวุธเพื่อเพิ่มความแม่นยำในการใช้งานมาขึ้น <br />
+                                - สร้างปุ่มหรือเพิ่มการทำงานที่จะสามารถทำให้ผู้ใช้งานหยุดการเล่นได้ชั่วคราว
+                            </p>
+                        </pre>`
+    },
+    {
+        slug: "evaluation-method",
+        code: `<div className="main-content-image">
+                            <img src="/assets/images/blog_image/evaluation.jpg" alt="Evaluation Method" />
+                        </div>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; วิธีการประเมินค่า Project หรือ Prototype ที่เราทำนั้นว่ามีคุณค่าเป็นอย่างไรแล้วมีชุดคำถามแบบไหนเป็นสิ่งที่จะต้องคำนึงถึงเพื่อที่เราจะได้รู้จักวิธีการประเมินค่าผลงานของเราได้ถูกต้องซึ่งเบื้องต้นเราจะต้องมาทำความรู้จักกับ <b>Research Methods</b> ซึ่งมีอยู่ด้วยกัน 2 แบบ 1. Theoretical Research 2. Empirical Research โดยที่เราจะโฟกัสการ Research ในรูปแบบ Empirical Research
+                        </p>
+                        <strong>Empirical Research คืออะไร ?</strong>
+                        <ul>
+                            <li>เป็นการเปรียบเทียบกับ Theoretical Research</li>
+                            <li>อาศัยการสังเกตหรือประสบการณ์</li>
+                            <li>อาศัยเพียงการสังเกตหรือประสบการณ์โดยไม่ต้องคำนึงถึงทฤษฎี</li>
+                            <li>สามารถยืนยันหรือหักล้างได้ด้วยการาสังเกตหรือทดลอง</li>
+                        </ul>
+                        <p>ใน HCI การสังเกตหรือจากประสบการณ์ scope มีแค่มนุษย์ interact กับ computer หรือเทคโนโลยีบางประเภท</p>
+                        <strong>ทำไมเราถึงต้อทำการ Empirical Research ?</strong>
+                        <ul>
+                            <li>เพื่อตอบและตั้งคำถามเกี่ยวกับการออกแบบ user interface ใหม่ หรือเทคนิคในการ interaction</li>
+                            <li>เพื่อค้นหาความสัมพันธ์ระหว่างเหตุและผล</li>
+                            <li>เพื่อเปลี่ยนความคิดเห็นที่ไม่มีมูลความจริงให้เป็นความคิดเห็นที่มีหลักฐานและข้อมูลสนับสนุน</li>
+                            <li>เพื่อพัฒนาหรือทดสอบสมมติฐานที่ทำไว้ที่อธิบายไว้ถึงการทำนายพฤติกรรมของมนุษย์ที่โต้ตอบกับคอมพิวเตอร์</li>
+                        </ul>
+                        <strong>แล้วเราจะทำการ Empirical Research อย่างไร ?</strong>
+                        <ul>
+                            <li>ทำผ่านกระบวนการสอบถามหรือสืบค้นความเป็นไปได้ตามหลักการทางวิทยาศาสตร์</li>
+                            <li>
+                                <details>
+                                    <summary
+                                        style={{ fontFamily: "Noto Sans Thai, sans-serif" }}
+                                    >หลักการทางวิทยาศาสตร์</summary>
+                                    <ul>
+                                        <li>การรับรู้และการกำหนดปัญหา</li>
+                                        <li>การกำหนดและทดสอบสมมติฐานที่ตั้ง</li>
+                                        <li>การรวบรวมข้อมูลผ่านการสังเกตและทดลอง</li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                        <strong>ข้อย้ำเตือน</strong>
+                        <ul>
+                            <li>ในการทำวิจัยเราไม่ได้พิสูจน์สิ่งใดๆ</li>
+                            <li>
+                                เราเพียงแค่รวบรวมและทดสอบหลักฐาน
+                                <ul>
+                                    <li>เป็นเรื่องที่ยังไม่ได้รับการพิสูจน์</li>
+                                    <li>พิสูจน์ว่าบางอย่างมีแนวโน้มจะเป็นจริงตามหลักความน่าจะเป็น</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <p>
+                            <b>ALLEN NEWELL</b> ได้กล่าวไว้ว่า "วิทยาศาสตร์คือวิธีการ อย่างอื่นเป็นเพียงแค่คำอธิบาย"
+                        </p>
+                        <p>
+                            <b>Empirical Research</b> สามารถแบ่งได้ 3 วิธีการ
+                            <ul>
+                                <li>Observational Method</li>
+                                <li>Correlational Method</li>
+                                <li>Experimental Method</li>
+                            </ul>
+                        </p>
+                        <strong>การทำ Observational Method</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; มุ่งเน้นการประเมินเชิงคุณภาพระหว่างความเกี่ยวข้องและความถูกต้องซึ่งความเกี่ยวข้องแปรผกผันกับความถูกต้องและจุดมุ่งหมายของ Method นี้คือ การค้นพบและอธิบายเหตุผลเบื้องหลังพฤติกรรมของมนุษย์
+                        </p>
+                        <details>
+                            <summary>ตัวอย่าง Observational Method</summary>
+                            <p>การสัมภาษณ์, การสืบสวน, การสอบถาม, การศึกษา, การเล่าเรื่อง, การเดินสำรวจและอื่นๆ</p>
+                        </details><br /><br />
+                        <strong>การทำ Correlational Method</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เป็นการมองหาความสัมพันธ์ระหว่างตัวแปร
+                        </p>
+                        <ul>
+                            <li>
+                                จากการสังเกตและข้อมูลที่รวบรวม เช่น การตั้งค่าความเป็นส่วนตัวของ user ที่ใช้ social media มีความสัมพันธ์กับอายุ เพศ ระดับการศึกษาและอื่นๆ หรือไม่
+                            </li>
+                            <li>
+                                ไม่ได้มาจากการทดลองแต่มาจาก การสัมภาษณ์, การสำรวจออนไลน์และแบบสอบถาม
+                            </li>
+                        </ul>
+                        <strong>การทำ Experimental Method</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; เป็นการทดลองโดยควบคุมสถาวะต่างๆ ในห้องปฏิบัติการ ซึ่งในวิชา HCI มักใช้ใน User Study มุ่งเน้นที่การประเมินเชิงคุณภาพโดยคาดหวังให้มี low relevance, high in precision รวมถึงมีข้อสรุปเชิงเหตุและผลถ้าเป็นไปได้และอย่างน้อยจะต้องมี 2 ตัวแปรคือ
+                        </p>
+                        <ul>
+                            <li>Manipulated variable</li>
+                            <li>Response variable</li>
+                        </ul>
+                        <strong>Internal validity & External validity</strong>
+                        <ul>
+                            <li>
+                                <details>
+                                    <summary>Internal validity</summary>
+                                    <ul>
+                                        <li>เป็นขอบเขตที่สังเกตจากเงื่อนไขการทดสอบ เช่น Condition A และ Condition B</li>
+                                        <li>High internal validity หมายถึงมีความแตกต่างของค่าเฉลี่ยจริงและเกิดจากคุณสมบัติที่ต่างกันของการทดสอบ</li>
+                                        <li>ความแปรปรวนเกิดจากความโน้มเอียงของผู้เข้าร่วมหรือได้รับการควบคุมเท่าๆ กันในเงื่อนไขของการทดสอบ</li>
+                                    </ul>
+                                </details>
+                            </li>
+                            <li>
+                                <details>
+                                    <summary>External validity</summary>
+                                    <ul>
+                                        <li>ความสามารถที่ผลลัพธ์จะนำไปใช้กับสถานการณ์อื่นๆ ได้ซึ่งมีเกี่้ยวกับผู้คนและสถานการณ์</li>
+                                        <li>High external validity
+หมายถึงผู้เข้าร่วมการวิจัยเป็นตัวอย่างของกลุ่มผู้ใช้เป้าหมายในวงกว้างอยย่างเหมาะสม</li>
+                                        <li>สภาพแวดล้อมของการทดสอบและขั้นตอนการทดลองจะเป็นตัวอย่างของสถานการณ์ของโลกจริงที่ถูกสร้างโดย interface หรือเทคนิคต่างๆ</li>
+                                    </ul>
+                                </details>
+                            </li>
+                        </ul>
+                        <strong>Scales of measurement</strong>
+                        <p>เรียงลำดับจากความละเอียดน้อยไปมาก คือ Nominal, Ordinal, Interval และ Ratio</p>
+                        <strong>Research Question</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; ชุดแบบคำถามควรที่จะพิจารณาจากงานวิจัยหรือชุดคำถามที่ได้รัะบการยอมรับแล้วเช่น คำถามเกี่ยวกับการยอมรับเทคโนโลยีและควรเป็นคำถามที่สามารถทดสอบได้
+                        </p>
+                        <strong>Designing and HCI Experiments</strong>
+                        <p>
+                            &nbsp;&nbsp;&nbsp;&nbsp; การเรียนรู้ในการจัดการและออกแบบการทดลองเป็นทักษะที่จำเป็นสำหรับนักวิจัย HCI ซึ่งการออกแบบการทดลองเป็นกระบวนการที่จะตัดสินใจว่า จะทำภารกิจหรือขั้นตอนและอื่นๆ กับผู้ที่เข้าร่วมอย่างไร
+                        </p>
+                        <strong>Method</strong>
+                        <p>เป็นวิธีการออกแบบและดำเนินการทดลอง ซึ่งมีความสำคัญเป็นอย่างมากไม่ควรที่จะคิดขึ้นมาเองเพียงเพราะมีความสมเหตุสมผลแต่ควรปฏิบัตืตามมาตรฐานการทดลองที่เป็นมนุษย์</p>
+                        <p>&nbsp;&nbsp;&nbsp;&nbsp; <b>จากการสรุปดังกล่าว</b> ทำให้สมาชิกภายในกลุ่มได้ร่วมกันทำเอกสารชี้แจงข้อมูลโครงการที่มีการคิดออกแบบวิธีการทดลองแบบจำลอง Iris Vision ซึ่งจะต้องชี้แจงให้ละเอียดและมีความเกี่ยวข้องกับหลักการในการประเมินทั้ง Baseline Condition และ Test Condition และข้อคำถามนั้นเป็นไปตามแบบชุดคำถามการยอมรับเทคโนโลยีของ TAM โดยสามารถแบ่งออกเป็นหมวดหมู่ได้ 4 หมวดหมู่ คือ ชุดคำถามประเมินเกี่ยวกับประสิทธิภาพและผลลัพธ์ของการใช้งาน, ความง่ายและการเรียนรู้ในการใช้งาน, การรับรู้และการโต้ตอบขณะใช้งานและความยืดหยุ่นและการปรับตัว</p>`
     }
 ];
