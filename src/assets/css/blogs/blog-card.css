@@ -10,6 +10,8 @@
     border: 1px solid #dadada;
     background-color: #FFFFFF;
     transition: 0.3s all;
+    height: auto;
+    align-self: center;
 }
 
 .blog-card:hover {

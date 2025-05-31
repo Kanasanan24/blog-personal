@@ -233,6 +233,10 @@
             border-bottom-right-radius: 10px;
             background-color: #f7f7f7;
         }
+
+        ul {
+            margin-right: 10px;
+        }
     }
 
     details:open {
@@ -247,6 +251,10 @@
 .blog-detail-container.active-dark details {
     summary, p {
         color: #000000;
+    }
+
+    li {
+        color: #000000 !important;
     }
 }
 

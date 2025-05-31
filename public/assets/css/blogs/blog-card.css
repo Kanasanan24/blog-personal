@@ -8,8 +8,9 @@
     flex-direction: column;
     border-radius: 10px;
     border: 1px solid #dadada;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     transition: 0.3s all;
+    align-self: start;
 }
 
 .blog-card:hover {

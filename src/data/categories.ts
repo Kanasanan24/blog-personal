@@ -19,7 +19,11 @@ export const categorie_details:IFCategoryDetail[] = [
             "interaction-design-basic",
             "prototyping",
             "extended-reality",
-            "evaluation-method"
+            "evaluation-method",
+            "data-visualization&information-architechture",
+            "hypothesis-testing",
+            "social-interaction",
+            "future-directions-in-hci"
         ]
     },
     {
